@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1%;
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-div {
+  height: fit-content;
+  width: 100%;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.circle {
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar-img {
+  height: 65%;
+  width: 65%;
+}
+
+.breathe {
+  animation: breatheAnimation 2s infinite ease-in-out;
+}
+
+@keyframes breatheAnimation {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* .keypad {
+  font-family: inherit;
+  width: 150px;
+}
+
+.mobile-input {
+  font-family: inherit;
+  text-align: center;
+  border-radius: 5px;
+  background: rgb(0, 0, 0, 0.1);
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 16px;
+  height: 40px;
+  line-height: 24px;
+  padding: 7px 8px;
+  color: rgb(8, 9, 10);
+}
+
+.mobile-input:focus {
+  background-color: #fff;
+  border-color: #3b49df;
+}
+
+.backspace-mod {
+  padding: 0;
+} */

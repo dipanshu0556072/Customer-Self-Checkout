@@ -1,0 +1,46 @@
+.feedback-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feedback-row1 {
+    padding-top: 4%;
+  }
+  
+  .feedback-row1 p {
+    font-size: 200%;
+    font-variant: small-caps;
+    color: rgb(62, 61, 61);
+  }
+  
+  .feedback-row2 {
+    padding-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .feedback-row2 a {
+    font-size: x-large;
+    color: #0d739b;
+  }
+  .row img {
+    width: 80%;
+    border-radius: 60%;
+    cursor: pointer;
+  }
+  
+  /* Apply border and border-radius to the selected image */
+  .row img.selected {
+    border: 1px solid #003080;
+    border-radius: 50%;
+  }
+  
+  .feedback-row3 {
+    padding-top: 7%;
+    text-align: center;
+  }
+  

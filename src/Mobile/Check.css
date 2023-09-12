@@ -1,0 +1,11 @@
+.heading {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subheading{
+  font-size: large;
+}

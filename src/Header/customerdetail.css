@@ -1,0 +1,13 @@
+.customer-detail{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.customer-detail div{
+    padding: 0.4%;
+    display: flex;
+    align-items: center;
+}

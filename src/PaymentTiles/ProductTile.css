@@ -1,0 +1,155 @@
+.scrollable {
+    overflow-y: auto;
+    padding-top: 1%;
+  }
+  
+  .product-tile {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 93%;
+    height: 120px;
+    background-color:#F1F1F1;
+    border-radius: 10px;
+  }
+  .image-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding-left: 5px;
+  }
+  
+  .tile-img {
+    align-items: center;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .names {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+    margin: 10px;
+  }
+  
+  .brandName {
+    font-variant: small-caps;
+    font-size: 100%;
+  }
+  
+  .productName {
+    flex-wrap: wrap;
+    font-size: 70%;
+  }
+  
+  .offer-div {
+    height: 40px;
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-top: 10px;
+  }
+  
+  .offer {
+    color: rgb(5, 98, 198);
+    font-size: 55%;
+  }
+  
+  .offer-tag {
+    margin-right: 3px;
+  }
+  
+  .qty {
+    margin: 20px;
+    padding-right: 10px;
+  }
+  
+  .qty-count {
+    margin-left: 5px;
+  }
+  
+  .price-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: fit-content;
+    letter-spacing: 1px;
+  }
+  
+  .total-price {
+    text-align: center;
+  }
+  
+  .mrp {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 74%;
+    }
+  
+  .mrp-tag {
+    font-size: 100%;
+    font-weight: lighter;
+  }
+  
+  .currency {
+    color: rgb(0, 171, 0);
+  }
+  
+  .total1 {
+  }
+  
+  .total2 {
+  }
+  
+  .cross-img {
+    width: 20px;
+    border-radius: 10px;
+  }
+  .tile-col2{
+    width:30vw;
+    height:80vh;
+    border-left: 1px solid black;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    padding-top: 2%;
+  }
+
+.tile-col2 img{
+  height: 80%;
+  padding-right: 3%;
+}
+.col2-row2{
+  width:80%;
+  height:15%;
+  display: flex;
+  margin-top: 5%;
+  margin-left:12%;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #003080;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.payHead{
+  font-size: small;
+  text-align: center;
+  display: inline;
+}
+.col2-row2 p{
+  text-align: center;
+}
+.col2-row2 #payHead{
+  font-size: 90%;
+  color: #003080;
+}
+.col2-row2 #paySubHead{
+  font-size: 70%;
+  font-weight: 460;
+}

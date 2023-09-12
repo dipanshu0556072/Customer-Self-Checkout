@@ -1,0 +1,38 @@
+.Upi-container{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.Upibag-row1{
+    display: flex;
+    flex-direction: column;
+    width:50%;  
+    height:90vh;
+}
+.Upibag-col1{
+    display: flex;
+    justify-content: center;
+}
+.Upibag-col1 img{
+    width:115%;
+}
+.Upibag-row2{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.Upibag-row2 #pay-success-heading{
+  font-size: x-large;
+  font-variant: small-caps;
+}
+.Upibag-row2 #pay-success-subHeading,#pay-success-note{
+    font-size: medium;
+    color: rgb(100, 98, 98);
+}
+#pay-success-redirect{
+    font-size: smaller;
+    color: rgb(100, 98, 98);
+}
